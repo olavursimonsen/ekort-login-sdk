@@ -59,3 +59,11 @@ export type {
   RedirectLoginStart,
   StartLoginOptions,
 } from './login';
+
+export {
+  EKORT_BUTTON_BASE_STYLE,
+  EKORT_BUTTON_ICON_SVG,
+  EKORT_BUTTON_LABEL,
+  renderEkortLoginButton,
+} from './button';
+export type { RenderEkortLoginButtonOptions } from './button';
