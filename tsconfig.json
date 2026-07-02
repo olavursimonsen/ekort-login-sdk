@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // tsup's dts build injects baseUrl, which TypeScript 6 flags as deprecated.
+    "ignoreDeprecations": "6.0",
+    "strict": true,
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "lib": ["ES2020", "DOM"],
+    "declaration": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
